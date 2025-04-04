@@ -299,7 +299,6 @@ function M.select_download_commands(repo, project_name, cache_folder, revision, 
     -- Git repository. Check for typical git environment variables and abort if found.
     for _, k in pairs {
       "GIT_ALTERNATE_OBJECT_DIRECTORIES",
-      "GIT_CEILING_DIRECTORIES",
       "GIT_DIR",
       "GIT_INDEX",
       "GIT_INDEX_FILE",
